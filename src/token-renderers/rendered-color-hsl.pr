@@ -1,0 +1,18 @@
+{*
+Render color value in HSL format. If the property contains reference, render reference instead color.
+
+"context": {
+    "hex": string
+    "r": number
+    "g": number
+    "b": number
+    "a": number
+    "referencedToken": ColorToken | null
+  }
+
+  Example:
+  hsl(101, 80%, 96%)
+*}
+{[ inject "reference-wrapper" context context ]}
+{{ rgbToHsl(context) }}
+{[/]}

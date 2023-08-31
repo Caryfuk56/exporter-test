@@ -1,0 +1,12 @@
+{*
+Generate all measure tokens.
+*}
+{[ let currentBrand = ds.currentBrand() /]}
+{{ fileHeaderComment(currentBrand.name, "measures.scss") }}
+@mixin set-token-measures{
+{[ for token in ds.tokensByType("Measure", currentBrand.id) ]}
+{[ let tokenGroup = ds.tokenGroupContainingTokenId(token.id) /]}
+{[ inject "render-group-name" context tokenGroup /]}
+  ${[ inject "rendered-name" context token /]}: {[ inject "render-measure-value" context token.value /]};
+{[/]}
+}
