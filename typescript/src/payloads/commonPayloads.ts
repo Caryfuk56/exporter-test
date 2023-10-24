@@ -6,3 +6,18 @@ export const categoryPrefixes = {
   colorTokenPrefix: "color",
   measureTokenPrefix: "measure",
 };
+
+export const actionsNameDefinition = [
+  "hover",
+  "default",
+  "active",
+  "disabled",
+  "emphasized",
+  "muted",
+  "contrast",
+  "success",
+  "danger",
+  "warning",
+  "info",
+  "negative",
+];

@@ -21,6 +21,9 @@ const variableName = (prefix: string, token: Token, tokenGroup: TokenGroup): str
     segments.push(tokenGroup.name);
   }
 
+  // console.log(tokenGroup.path, tokenGroup.parent ? tokenGroup.name : '')
+  console.log(tokenGroup.path)
+
   // Replace dash to double dash in the name
   const withDoubleDash = replaceIfContains(token.name, "-", "--");
   segments.push(withDoubleDash);
