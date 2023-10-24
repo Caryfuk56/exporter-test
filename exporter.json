@@ -2,11 +2,12 @@
     "id": "io.supernova.neuron-exporter",
     "name": "Neuron sass exporter from supernova",
     "description": "Sass supernova exporter for neuron project.",
-    "author": "Your name goes here",
+    "author": "Ais servis",
     "organization": "Ais servis",
     "source_dir": "src",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "usesBrands": true,
+    "usesThemes": true,
     "config": {
         "sources": "sources.json",
         "output": "output.json",
@@ -17,6 +18,7 @@
         "supernova": "1.0.0"
     },
     "tags": [
-        "Flutter"
+        "sass",
+        "neuron"
     ]
 }
