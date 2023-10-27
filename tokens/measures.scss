@@ -1,0 +1,290 @@
+
+  /*
+  * measures.scss - generated from Supernova by neuron exporter.
+  * ----------------------------------------------------------
+  * 
+  * current brand: 01 - VIGo
+  */
+  
+@mixin set-token-measures{
+
+
+  /* --- core --- */
+  $measure-opacity-opacity-core-overlay-default
+   : 50%;
+  $measure-fontsizing-fontsize-core-size-base
+   : 16px;
+  $measure-fontsizing-fontsize-core-size-tiny
+   : 12px;
+  $measure-fontsizing-fontsize-core-size-medium
+   : 20px;
+  $measure-fontsizing-fontsize-core-size-large
+   : 24px;
+  $measure-fontsizing-fontsize-core-size-extra--large
+   : 28px;
+  $measure-fontsizing-fontsize-core-size-huge
+   : 32px;
+  $measure-lineheight-lineheight-core-line-height-small
+   : 100%;
+  $measure-lineheight-lineheight-core-line-height-medium
+   : 125%;
+  $measure-lineheight-lineheight-core-line-height-large
+   : 150%;
+
+
+  /* --- Border Width --- */
+  $measure-borderwidth-borderwidth-core-base
+   : 1px;
+
+
+  /* --- Border Radius --- */
+  $measure-borderradius-borderradius-core-full
+   : 9999px;
+  $measure-borderradius-borderradius-core-none
+   : 0px;
+  $measure-borderradius-borderradius-core-large
+   : 12px;
+  $measure-borderradius-borderradius-core-small
+   : 2px;
+  $measure-borderradius-borderradius-core-medium
+   : 4px;
+
+
+  /* --- Dimension --- */
+  $measure-dimension-dimension-core-0
+   : 0px;
+  $measure-dimension-dimension-core-2
+   : 2px;
+  $measure-dimension-dimension-core-4
+   : 4px;
+  $measure-dimension-dimension-core-8
+   : 8px;
+  $measure-dimension-dimension-core-12
+   : 12px;
+  $measure-dimension-dimension-core-16
+   : 16px;
+  $measure-dimension-dimension-core-10
+   : 10px;
+  $measure-dimension-dimension-core-20
+   : 20px;
+  $measure-dimension-dimension-core-24
+   : 24px;
+  $measure-dimension-dimension-core-32
+   : 32px;
+  $measure-dimension-dimension-core-40
+   : 40px;
+  $measure-dimension-dimension-core-64
+   : 64px;
+  $measure-dimension-dimension-core-9999
+   : 9999px;
+  $measure-dimension-dimension-core-1
+   : 1px;
+
+
+  /* --- core --- */
+  $measure-fontsizing-fontsize-core-size-small
+   : 14px;
+
+
+  /* --- Border Width --- */
+  $measure-borderwidth-borderwidth-core-3x
+   : 3px;
+
+
+  /* --- Border Radius --- */
+  $measure-borderradius-borderradius-core-extralarge
+   : 24px;
+
+
+  /* --- Spacing --- */
+  $measure-spacing-spacing-semantic-50
+   : 4px;
+  $measure-spacing-spacing-semantic-100
+   : 8px;
+  $measure-spacing-spacing-semantic-125
+   : 10px;
+  $measure-spacing-spacing-semantic-200
+   : 16px;
+  $measure-spacing-spacing-semantic-250
+   : 20px;
+  $measure-spacing-spacing-semantic-300
+   : 24px;
+  $measure-spacing-spacing-semantic-400
+   : 32px;
+  $measure-spacing-spacing-semantic-800
+   : 64px;
+
+
+  /* --- component --- */
+  $measure-sizing-sizing-component-icon-small
+   : 12px;
+  $measure-sizing-sizing-component-icon-base
+   : 16px;
+  $measure-sizing-sizing-component-icon-large
+   : 24px;
+  $measure-sizing-sizing-component-notificationicon-base
+   : 16px;
+
+
+  /* --- Spacing --- */
+  $measure-spacing-spacing-semantic-25
+   : 2px;
+
+
+  /* --- loading --- */
+  $measure-dimension-animation-loading-speed-default
+   : 600px;
+
+
+  /* --- Dimension --- */
+  $measure-dimension-dimension-core-6
+   : 6px;
+
+
+  /* --- Spacing --- */
+  $measure-spacing-spacing-semantic-75
+   : 6px;
+
+
+  /* --- component --- */
+  $measure-sizing-sizing-component-icon-ultra
+   : 40px;
+
+
+  /* --- Dimension --- */
+  $measure-dimension-dimension-core-48
+   : 48px;
+  $measure-dimension-dimension-core-100
+   : 100px;
+
+
+  /* --- component --- */
+  $measure-borderradius-borderradius-component-pagination-default
+   : 4px;
+
+
+  /* --- Dimension --- */
+  $measure-dimension-dimension-table-ag--tab-min-width
+   : 240px;
+  $measure-dimension-dimension-table-ag--menu-min-width
+   : 181px;
+  $measure-dimension-dimension-table-ag--side-bar-panel-width
+   : 250px;
+
+
+  /* --- component --- */
+  $measure-borderradius-borderradius-component-button-default
+   : $measure-borderradius-borderradius-core-medium
+      ;
+  $measure-borderradius-borderradius-component-input-default
+   : $measure-borderradius-borderradius-core-medium
+      ;
+  $measure-sizing-sizing-component-button-icon
+   : $measure-sizing-sizing-component-icon-base
+      ;
+  $measure-borderradius-borderradius-component-tag-default
+   : $measure-borderradius-borderradius-core-medium
+      ;
+  $measure-borderradius-borderradius-component-panel-default
+   : $measure-borderradius-borderradius-core-large
+      ;
+  $measure-borderradius-borderradius-component-container-default
+   : $measure-borderradius-borderradius-core-large
+      ;
+  $measure-borderradius-borderradius-component-navigation-item-default
+   : $measure-borderradius-borderradius-core-large
+      ;
+
+
+  /* --- Dimension --- */
+  $measure-dimension-dimension-table-ag--font-size
+   : $measure-dimension-dimension-core-12
+      ;
+  $measure-dimension-dimension-table-ag--grid-size
+   : $measure-dimension-dimension-core-6
+      ;
+  $measure-dimension-dimension-table-ag--icon-size
+   : $measure-dimension-dimension-core-16
+      ;
+  $measure-dimension-dimension-table-ag--row-width
+   : $measure-dimension-dimension-core-100
+      ;
+  $measure-dimension-dimension-table-ag--row-height
+   : $measure-dimension-dimension-core-40
+      ;
+  $measure-dimension-dimension-table-ag--card-radius
+   : $measure-dimension-dimension-core-4
+      ;
+  $measure-dimension-dimension-table-ag--border-radius
+   : $measure-dimension-dimension-core-4
+      ;
+  $measure-dimension-dimension-table-ag--header-height
+   : $measure-dimension-dimension-core-48
+      ;
+  $measure-dimension-dimension-table-ag--list-item-height
+   : $measure-dimension-dimension-core-24
+      ;
+  $measure-dimension-dimension-table-ag--row-border-width
+   : $measure-dimension-dimension-core-1
+      ;
+  $measure-dimension-dimension-table-ag--cell-widget-spacing
+   : $measure-dimension-dimension-core-12
+      ;
+  $measure-dimension-dimension-table-ag--toggle-button-width
+   : $measure-dimension-dimension-core-24
+      ;
+  $measure-dimension-dimension-table-ag--toggle-button-height
+   : $measure-dimension-dimension-core-16
+      ;
+  $measure-dimension-dimension-table-ag--row-group-indent-size
+   : $measure-dimension-dimension-core-24
+      ;
+  $measure-dimension-dimension-table-ag--checkbox-border-radius
+   : $measure-dimension-dimension-table-ag--border-radius
+      ;
+  $measure-dimension-dimension-table-ag--set-filter-indent-size
+   : $measure-dimension-dimension-table-ag--icon-size
+      ;
+  $measure-dimension-dimension-table-ag--cell-horizontal-padding
+   : $measure-dimension-dimension-core-16
+      ;
+  $measure-dimension-dimension-table-ag--widget-vertical-spacing
+   : $measure-dimension-dimension-core-8
+      ;
+  $measure-dimension-dimension-table-ag--column-select-indent-size
+   : $measure-dimension-dimension-table-ag--icon-size
+      ;
+  $measure-dimension-dimension-table-ag--widget-horizontal-spacing
+   : $measure-dimension-dimension-core-12
+      ;
+  $measure-dimension-dimension-table-ag--toggle-button-border-width
+   : $measure-dimension-dimension-core-1
+      ;
+  $measure-dimension-dimension-table-ag--selected-tab-underline-width
+   : $measure-dimension-dimension-core-2
+      ;
+  $measure-dimension-dimension-table-ag--header-column-separator-width
+   : $measure-dimension-dimension-core-1
+      ;
+  $measure-dimension-dimension-table-ag--filter-tool-panel-group-indent
+   : $measure-dimension-dimension-core-16
+      ;
+  $measure-dimension-dimension-table-ag--header-column-separator-height
+   : $measure-dimension-dimension-core-100
+      ;
+  $measure-dimension-dimension-table-ag--header-column-resize-handle-width
+   : $measure-dimension-dimension-core-1
+      ;
+  $measure-dimension-dimension-table-ag--widget-container-vertical-padding
+   : $measure-dimension-dimension-core-12
+      ;
+  $measure-dimension-dimension-table-ag--header-column-resize-handle-height
+   : $measure-dimension-dimension-core-32
+      ;
+  $measure-dimension-dimension-table-ag--header-column-resize-handle-display
+   : $measure-dimension-dimension-core-0
+      ;
+  $measure-dimension-dimension-table-ag--widget-container-horizontal-padding
+   : $measure-dimension-dimension-core-12
+      ;
+}
