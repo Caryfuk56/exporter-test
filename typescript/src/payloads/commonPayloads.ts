@@ -20,4 +20,13 @@ export const actionsNameDefinition = [
   "warning",
   "info",
   "negative",
+  "base",
+  "tiny",
+  "small",
+  "medium",
+  "large",
+  "extra-large",
+  "huge",
+  "full",
+  "none",
 ];

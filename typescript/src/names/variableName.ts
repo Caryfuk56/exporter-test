@@ -1,6 +1,16 @@
+import { actionsNameDefinition } from "../payloads";
+
 const replaceIfContains = (source: string, replaceFrom: string, replaceTo: string) => {
   if (source.includes(replaceFrom)) {
     return source.replace(replaceFrom, replaceTo);
+  }
+
+  return source;
+};
+
+const replaceLastOne = (definition: string[], source: string): string => {
+  if (definition.some((item) => source.includes(item))) {
+    return `-${source}`;
   }
 
   return source;
@@ -21,15 +31,13 @@ const variableName = (prefix: string, token: Token, tokenGroup: TokenGroup): str
     segments.push(tokenGroup.name);
   }
 
-  // console.log(tokenGroup.path, tokenGroup.parent ? tokenGroup.name : '')
-  console.log(tokenGroup.path)
+  segments.push(token.name);
 
-  // Replace dash to double dash in the name
-  const withDoubleDash = replaceIfContains(token.name, "-", "--");
-  segments.push(withDoubleDash);
+  segments[segments.length - 1] = replaceLastOne(actionsNameDefinition, segments[segments.length - 1])
+
 
   // Create string from sentence array and separate it ba "-" symbol.
-  const separatedName = segments.join("-").toLowerCase();
+  let separatedName = segments.join("-").toLowerCase();
 
   // If the group contains space remove it.
   const finalResult = separatedName.replace(/\s/g, "")

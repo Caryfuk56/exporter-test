@@ -33,6 +33,12 @@ const calculateHue = (delta: number, cmax: number, r: number, g: number, b: numb
   return rounded;
 };
 
+const stringHSL = (hue: number, saturation: number, lightness: number) =>
+  `hsl(${hue}, ${Math.round(saturation)}%, ${Math.round(lightness)}%)`;
+
+const stringHSLA = (hue: number, saturation: number, lightness: number, alpha: number) =>
+  `hsla(${hue}, ${Math.round(saturation)}%, ${Math.round(lightness)}%, ${Math.round(alpha * 10) / 10})`;
+
 /**
  * Calculates the lightness value for the HSL color space.
  *
@@ -59,11 +65,12 @@ const calculateSaturation = (delta: number, lightness: number) =>
  * @returns {string} The HSL representation of the input RGB color.
  */
 const rgbToHsl = (color: ColorTokenValue): string => {
-  const { r: _r, g: _g, b: _b, a } = color;
+  const { r: _r, g: _g, b: _b, a: _a } = color;
 
   const r = _r / 255;
   const g = _g / 255;
   const b = _b / 255;
+  const a = _a / 255;
 
   const cmin = Math.min(r, g, b);
   const cmax = Math.max(r, g, b);
@@ -77,9 +84,8 @@ const rgbToHsl = (color: ColorTokenValue): string => {
   const lightness = +(_lightness * 100).toFixed(1);
   const saturation = +(_saturation * 100).toFixed(1);
 
-
-
-  return `hsl(${hue}, ${Math.round(saturation)}%, ${Math.round(lightness)}%)`;
+  // If color has alpha 1 retun HSL and when some alpha is included return HSLA
+  return a === 1 ? stringHSL(hue, saturation, lightness) : stringHSLA(hue, saturation, lightness, a);
 };
 
 export default rgbToHsl;

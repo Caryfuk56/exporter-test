@@ -8,5 +8,6 @@ Generate all color tokens.
 {[ for token in ds.tokensByType("Color", currentBrand.id) ]}
 {[ let tokenGroup = ds.tokenGroupContainingTokenId(token.id) /]}
 {[ inject "render-group-name" context tokenGroup /]}
-  ${[ inject "rendered-name" context token /]}: {[ inject "rendered-color-hsl" context token.value /]};
+{[ inject "rendered-token-var" context token /]}
+
 {[/]}
