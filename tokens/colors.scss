@@ -1,0 +1,639 @@
+
+  /*
+  * colors.scss - generated from Supernova by neuron exporter.
+  * ----------------------------------------------------------
+  * 
+  * current brand: 01 - VIGo
+  */
+  
+@mixin set-token-colors{
+
+
+  /* --- core --- */
+  $color-core-red-100
+   : hsl(4, 70%, 96%);
+  $color-core-red-200
+   : hsl(8, 74%, 88%);
+  $color-core-red-500
+   : hsl(8, 77%, 67%);
+  $color-core-red-600
+   : hsl(8, 73%, 55%);
+  $color-core-red-700
+   : hsl(0, 54%, 49%);
+  $color-core-blue-100
+   : hsl(206, 80%, 96%);
+  $color-core-blue-200
+   : hsl(206, 84%, 88%);
+  $color-core-blue-500
+   : hsl(206, 83%, 72%);
+  $color-core-blue-600
+   : hsl(206, 83%, 65%);
+  $color-core-blue-700
+   : hsl(206, 72%, 53%);
+  $color-core-green-100
+   : hsl(101, 80%, 96%);
+  $color-core-green-200
+   : hsl(101, 65%, 80%);
+  $color-core-green-500
+   : hsl(100, 58%, 53%);
+  $color-core-green-600
+   : hsl(100, 77%, 44%);
+  $color-core-green-700
+   : hsl(100, 71%, 39%);
+  $color-core-orange-100
+   : hsl(33, 90%, 96%);
+  $color-core-orange-200
+   : hsl(34, 93%, 84%);
+  $color-core-orange-500
+   : hsl(34, 93%, 60%);
+  $color-core-orange-600
+   : hsl(34, 93%, 54%);
+  $color-core-orange-700
+   : hsl(34, 95%, 45%);
+  $color-core-primary-100
+   : hsl(180, 30%, 96%);
+  $color-core-primary-200
+   : hsl(180, 36%, 89%);
+  $color-core-primary-300
+   : hsl(184, 32%, 73%);
+  $color-core-primary-400
+   : hsl(172, 46%, 72%);
+  $color-core-primary-500
+   : hsl(173, 64%, 50%);
+  $color-core-primary-600
+   : hsl(182, 42%, 47%);
+  $color-core-primary-700
+   : hsl(189, 14%, 52%);
+  $color-core-primary-800
+   : hsl(188, 44%, 35%);
+  $color-core-primary-900
+   : hsl(182, 100%, 19%);
+  $color-core-primary-000
+   : hsl(176, 100%, 9%);
+  $color-core-secondary-100
+   : hsl(210, 20%, 98%);
+  $color-core-secondary-200
+   : hsl(210, 17%, 93%);
+  $color-core-secondary-300
+   : hsl(210, 14%, 89%);
+  $color-core-secondary-400
+   : hsl(210, 14%, 83%);
+  $color-core-secondary-500
+   : hsl(210, 11%, 71%);
+  $color-core-secondary-600
+   : hsl(208, 7%, 46%);
+  $color-core-secondary-700
+   : hsl(210, 9%, 31%);
+  $color-core-secondary-800
+   : hsl(210, 10%, 23%);
+  $color-core-secondary-900
+   : hsl(210, 11%, 15%);
+
+
+  /* --- content-action --- */
+  $color-semantic-content-action-secondary-default
+   : hsl(0, 0%, 100%);
+
+
+  /* --- semantic --- */
+  $color-semantic-elevation-10
+   : hsl(210, 11%, 15%);
+  $color-semantic-elevation-20
+   : hsl(210, 11%, 15%);
+
+
+  /* --- core --- */
+  $color-core-basic-white
+   : hsl(0, 0%, 100%);
+  $color-core-basic-black
+   : hsl(0, 0%, 0%);
+  $color-core-secondary-000
+   : hsl(210, 10%, 8%);
+  $color-core-secondary-150
+   : hsl(200, 20%, 97%);
+
+
+  /* --- semantic --- */
+  $color-semantic-elevation-15
+   : hsl(210, 11%, 15%);
+  $color-semantic-elevation-60
+   : hsl(210, 11%, 15%);
+
+
+  /* --- Color --- */
+  $color-table-ag--row-hover-color
+   : hsl(207, 90%, 54%);
+  $color-table-ag--column-hover-color
+   : hsl(207, 90%, 54%);
+  $color-table-ag--checkbox-unchecked-color
+   : hsl(0, 0%, 60%);
+  $color-table-ag--odd-row-background-color
+   : hsl(0, 0%, 99%);
+  $color-table-ag--tooltip-background-color
+   : hsl(0, 0%, 97%);
+  $color-table-ag--disabled-foreground-color
+   : hsl(197, 13%, 11%);
+  $color-table-ag--subheader-background-color
+   : hsl(0, 0%, 100%);
+  $color-table-ag--input-disabled-border-color
+   : hsl(217, 10%, 76%);
+  $color-table-ag--selected-row-background-color
+   : hsl(207, 90%, 54%);
+  $color-table-ag--control-panel-background-color
+   : hsl(0, 0%, 97%);
+  $color-table-ag--modal-overlay-background-color
+   : hsl(0, 0%, 100%);
+  $color-table-ag--input-disabled-background-color
+   : hsl(217, 10%, 76%);
+  $color-table-ag--range-selection-background-color
+   : hsl(207, 90%, 54%);
+  $color-table-ag--header-cell-hover-background-color
+   : hsl(0, 0%, 100%);
+  $color-table-ag--range-selection-background-color-2
+   : hsl(207, 90%, 54%);
+  $color-table-ag--range-selection-background-color-3
+   : hsl(207, 90%, 54%);
+  $color-table-ag--range-selection-background-color-4
+   : hsl(207, 90%, 54%);
+  $color-table-ag--subheader-toolbar-background-color
+   : hsl(0, 0%, 100%);
+  $color-table-ag--side-button-selected-background-color
+   : hsl(0, 0%, 0%);
+  $color-table-ag--range-selection-chart-background-color
+   : hsl(219, 100%, 50%);
+  $color-table-ag--value-change-value-highlight-background-color
+   : hsl(168, 76%, 36%);
+  $color-table-ag--range-selection-chart-category-background-color
+   : hsl(151, 100%, 50%);
+
+
+  /* --- core --- */
+  $color-core-products-life
+   : $color-core-primary-600
+      ;
+  $color-core-products-travel
+   : $color-core-primary-600
+      ;
+  $color-core-products-business
+   : $color-core-primary-600
+      ;
+  $color-core-products-property
+   : $color-core-primary-600
+      ;
+  $color-core-products-vehicles
+   : $color-core-primary-600
+      ;
+
+
+  /* --- base --- */
+  $color-semantic-base-canvas-default
+   : $color-core-secondary-300
+      ;
+  $color-semantic-base-overlay-default
+   : $color-core-secondary-900
+      ;
+  $color-semantic-base-container-default
+   : $color-core-basic-white
+      ;
+
+
+  /* --- content --- */
+  $color-semantic-content-text-info
+   : $color-core-blue-600
+      ;
+  $color-semantic-content-text-muted
+   : $color-core-secondary-600
+      ;
+  $color-semantic-content-text-danger
+   : $color-core-red-600
+      ;
+  $color-semantic-content-text-default
+   : $color-core-secondary-800
+      ;
+  $color-semantic-content-text-success
+   : $color-core-green-600
+      ;
+  $color-semantic-content-text-warning
+   : $color-core-orange-600
+      ;
+  $color-semantic-content-text-negative
+   : $color-core-basic-white
+      ;
+  $color-semantic-content-label-default
+   : $color-core-secondary-600
+      ;
+
+
+  /* --- content-field --- */
+  $color-semantic-content-field-border-hover
+   : $color-core-secondary-500
+      ;
+  $color-semantic-content-field-border-muted
+   : $color-core-secondary-100
+      ;
+  $color-semantic-content-field-border-default
+   : $color-core-secondary-400
+      ;
+  $color-semantic-content-field-border-danger--hover
+   : $color-core-red-700
+      ;
+  $color-semantic-content-field-border-success--hover
+   : $color-core-green-700
+      ;
+  $color-semantic-content-field-border-warning--hover
+   : $color-core-orange-700
+      ;
+  $color-semantic-content-field-border-danger--default
+   : $color-core-red-600
+      ;
+  $color-semantic-content-field-border-highlight--hover
+   : $color-core-blue-700
+      ;
+  $color-semantic-content-field-border-success--default
+   : $color-core-green-600
+      ;
+  $color-semantic-content-field-border-warning--default
+   : $color-core-orange-600
+      ;
+  $color-semantic-content-field-border-highlight--default
+   : $color-core-blue-600
+      ;
+  $color-semantic-content-field-background-muted
+   : $color-core-secondary-100
+      ;
+  $color-semantic-content-field-background-default
+   : $color-core-basic-white
+      ;
+  $color-semantic-content-field-background-contrast
+   : $color-core-secondary-800
+      ;
+  $color-semantic-content-field-background-danger--muted
+   : $color-core-red-100
+      ;
+  $color-semantic-content-field-background-success--muted
+   : $color-core-green-100
+      ;
+  $color-semantic-content-field-background-warning--muted
+   : $color-core-orange-100
+      ;
+  $color-semantic-content-field-background-danger--emphasized
+   : $color-core-red-600
+      ;
+  $color-semantic-content-field-background-success--emphasized
+   : $color-core-green-600
+      ;
+  $color-semantic-content-field-background-warning--emphasized
+   : $color-core-orange-600
+      ;
+
+
+  /* --- content-action --- */
+  $color-semantic-content-action-primary-active
+   : $color-core-primary-500
+      ;
+  $color-semantic-content-action-primary-default
+   : $color-core-primary-600
+      ;
+  $color-semantic-content-action-primary-disabled
+   : $color-core-secondary-300
+      ;
+  $color-semantic-content-action-secondary-active
+   : $color-core-secondary-200
+      ;
+  $color-semantic-content-action-secondary-disabled
+   : $color-core-secondary-300
+      ;
+
+
+  /* --- input --- */
+  $color-component-input-border-hover
+   : $color-semantic-content-field-border-hover
+      ;
+  $color-component-input-border-default
+   : $color-semantic-content-field-border-default
+      ;
+  $color-component-input-border-danger--hover
+   : $color-semantic-content-field-border-danger--hover
+      ;
+  $color-component-input-border-success--hover
+   : $color-semantic-content-field-border-success--hover
+      ;
+  $color-component-input-border-danger--default
+   : $color-semantic-content-field-border-danger--default
+      ;
+  $color-component-input-border-highlight--hover
+   : $color-semantic-content-field-border-highlight--hover
+      ;
+  $color-component-input-border-success--default
+   : $color-semantic-content-field-border-success--default
+      ;
+  $color-component-input-border-highlight--default
+   : $color-semantic-content-field-border-highlight--default
+      ;
+  $color-component-input-content-active
+   : $color-semantic-content-action-primary-default
+      ;
+  $color-component-input-content-default
+   : $color-semantic-content-text-default
+      ;
+  $color-component-input-content-disabled
+   : $color-semantic-content-text-muted
+      ;
+  $color-component-input-content-placeholder
+   : $color-semantic-content-text-muted
+      ;
+  $color-component-input-background-default
+   : $color-semantic-content-field-background-default
+      ;
+  $color-component-input-background-disabled
+   : $color-core-secondary-200
+      ;
+
+
+  /* --- content-action --- */
+  $color-semantic-content-action-primary-hover
+   : $color-core-primary-800
+      ;
+
+
+  /* --- button-flat --- */
+  $color-component-button-flat-content-hover
+   : $color-semantic-content-action-primary-hover
+      ;
+  $color-component-button-flat-content-active
+   : $color-semantic-content-action-primary-active
+      ;
+  $color-component-button-flat-content-default
+   : $color-semantic-content-action-primary-default
+      ;
+  $color-component-button-flat-content-disabled
+   : $color-semantic-content-text-muted
+      ;
+
+
+  /* --- button-primary --- */
+  $color-component-button-primary-content-default
+   : $color-semantic-content-text-negative
+      ;
+  $color-component-button-primary-content-disabled
+   : $color-semantic-content-text-muted
+      ;
+  $color-component-button-primary-background-hover
+   : $color-semantic-content-action-primary-hover
+      ;
+  $color-component-button-primary-background-active
+   : $color-semantic-content-action-primary-active
+      ;
+  $color-component-button-primary-background-default
+   : $color-semantic-content-action-primary-default
+      ;
+  $color-component-button-primary-background-disabled
+   : $color-semantic-content-action-primary-disabled
+      ;
+
+
+  /* --- button-secondary --- */
+  $color-component-button-secondary-content-default
+   : $color-semantic-content-action-primary-default
+      ;
+  $color-component-button-secondary-content-disabled
+   : $color-semantic-content-text-muted
+      ;
+  $color-component-button-secondary-background-hover
+   : $color-semantic-content-action-primary-hover
+      ;
+  $color-component-button-secondary-background-active
+   : $color-semantic-content-action-primary-active
+      ;
+  $color-component-button-secondary-background-default
+   : $color-semantic-content-action-secondary-default
+      ;
+  $color-component-button-secondary-background-disabled
+   : $color-semantic-content-action-secondary-disabled
+      ;
+
+
+  /* --- button-flat --- */
+  $color-component-button-flat-background-disabled
+   : $color-semantic-content-action-secondary-disabled
+      ;
+
+
+  /* --- button-primary --- */
+  $color-component-button-primary-border-default
+   : $color-semantic-content-action-primary-default
+      ;
+  $color-component-button-primary-border-hover
+   : $color-semantic-content-action-primary-hover
+      ;
+  $color-component-button-primary-border-active
+   : $color-semantic-content-action-primary-active
+      ;
+  $color-component-button-primary-border-disabled
+   : $color-semantic-content-action-primary-disabled
+      ;
+
+
+  /* --- button-secondary --- */
+  $color-component-button-secondary-border-default
+   : $color-semantic-content-action-primary-default
+      ;
+  $color-component-button-secondary-border-hover
+   : $color-semantic-content-action-primary-hover
+      ;
+  $color-component-button-secondary-border-active
+   : $color-semantic-content-action-primary-active
+      ;
+  $color-component-button-secondary-border-disabled
+   : $color-semantic-content-action-secondary-disabled
+      ;
+  $color-component-button-secondary-content-hover
+   : $color-semantic-content-text-negative
+      ;
+  $color-component-button-secondary-content-active
+   : $color-semantic-content-text-negative
+      ;
+
+
+  /* --- button-flat --- */
+  $color-component-button-flat-background-default
+   : $color-semantic-content-action-secondary-default
+      ;
+
+
+  /* --- content-field --- */
+  $color-semantic-content-field-background-info--emphasized
+   : $color-core-blue-600
+      ;
+  $color-semantic-content-field-background-info--muted
+   : $color-core-blue-100
+      ;
+
+
+  /* --- base --- */
+  $color-semantic-base-container-contrast
+   : $color-core-secondary-150
+      ;
+  $color-semantic-base-container-disabled
+   : $color-core-secondary-200
+      ;
+
+
+  /* --- content-action --- */
+  $color-semantic-content-action-secondary-hover
+   : $color-core-secondary-100
+      ;
+
+
+  /* --- base --- */
+  $color-semantic-base-border-default
+   : $color-core-secondary-300
+      ;
+
+
+  /* --- tab --- */
+  $color-component-tab-background-default
+   : $color-semantic-base-container-default
+      ;
+  $color-component-tab-background-inactive
+   : $color-core-secondary-200
+      ;
+  $color-component-tab-background-hover
+   : $color-core-secondary-400
+      ;
+  $color-component-tab-background-disabled
+   : $color-core-secondary-200
+      ;
+  $color-component-tab-background-highlight--default
+   : $color-semantic-content-action-primary-default
+      ;
+  $color-component-tab-background-highlight--hover
+   : $color-semantic-content-action-primary-hover
+      ;
+  $color-component-tab-border-default
+   : $color-semantic-base-border-default
+      ;
+  $color-component-tab-border-inactive
+   : $color-core-secondary-400
+      ;
+  $color-component-tab-border-hover
+   : $color-core-secondary-400
+      ;
+  $color-component-tab-border-disabled
+   : $color-core-secondary-400
+      ;
+  $color-component-tab-content-text-default
+   : $color-semantic-content-text-default
+      ;
+  $color-component-tab-content-text-disabled
+   : $color-semantic-content-text-muted
+      ;
+  $color-component-tab-content-text-negative
+   : $color-semantic-content-text-negative
+      ;
+
+
+  /* --- Color --- */
+  $color-table-ag--data-color
+   : $color-semantic-content-text-default
+      ;
+  $color-table-ag--border-color
+   : $color-semantic-content-field-border-default
+      ;
+  $color-table-ag--alpine-active
+   : $color-semantic-content-action-primary-active
+      ;
+  $color-table-ag--borders-input
+   : $color-component-input-border-default
+      ;
+  $color-table-ag--invalid-color
+   : $color-semantic-content-text-danger
+      ;
+  $color-table-ag--background-color
+   : $color-core-basic-white
+      ;
+  $color-table-ag--borders-critical
+   : $color-core-basic-white
+      ;
+  $color-table-ag--foreground-color
+   : $color-semantic-content-text-default
+      ;
+  $color-table-ag--row-border-color
+   : $color-semantic-content-field-border-default
+      ;
+  $color-table-ag--borders-secondary
+   : $color-core-basic-white
+      ;
+  $color-table-ag--input-border-color
+   : $color-table-ag--border-color
+      ;
+  $color-table-ag--alpine-active-color
+   : $color-semantic-content-action-primary-active
+      ;
+  $color-table-ag--chip-background-color
+   : $color-semantic-content-field-background-contrast
+      ;
+  $color-table-ag--secondary-border-color
+   : $color-semantic-content-field-border-default
+      ;
+  $color-table-ag--header-background-color
+   : $color-semantic-content-field-background-muted
+      ;
+  $color-table-ag--input-focus-border-color
+   : $color-core-basic-black
+      ;
+  $color-table-ag--checkbox-background-color
+   : $color-table-ag--background-color
+      ;
+  $color-table-ag--input-border-color-invalid
+   : $color-table-ag--invalid-color
+      ;
+  $color-table-ag--secondary-foreground-color
+   : $color-table-ag--foreground-color
+      ;
+  $color-table-ag--value-change-delta-up-color
+   : $color-semantic-content-field-background-success--emphasized
+      ;
+  $color-table-ag--checkbox-indeterminate-color
+   : $color-table-ag--checkbox-unchecked-color
+      ;
+  $color-table-ag--range-selection-border-color
+   : $color-table-ag--alpine-active-color
+      ;
+  $color-table-ag--selected-tab-underline-color
+   : $color-table-ag--alpine-active-color
+      ;
+  $color-table-ag--header-column-separator-color
+   : $color-table-ag--secondary-border-color
+      ;
+  $color-table-ag--value-change-delta-down-color
+   : $color-semantic-content-field-background-danger--emphasized
+      ;
+  $color-table-ag--toggle-button-off-border-color
+   : $color-table-ag--checkbox-unchecked-color
+      ;
+  $color-table-ag--range-selection-highlight-color
+   : $color-table-ag--range-selection-background-color
+      ;
+  $color-table-ag--header-column-resize-handle-color
+   : $color-table-ag--secondary-border-color
+      ;
+  $color-table-ag--toggle-button-off-background-color
+   : $color-table-ag--checkbox-unchecked-color
+      ;
+  $color-table-ag--toggle-button-switch-background-color
+   : $color-table-ag--background-color
+      ;
+  $color-table-ag--checkbox-checked-color
+   : $color-table-ag--checkbox-background-color
+      ;
+  $color-table-ag--header-foreground-color
+   : $color-table-ag--secondary-foreground-color
+      ;
+  $color-table-ag--toggle-button-on-border-color
+   : $color-table-ag--checkbox-checked-color
+      ;
+  $color-table-ag--toggle-button-on-background-color
+   : $color-table-ag--checkbox-checked-color
+      ;
+}
