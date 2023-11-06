@@ -1,0 +1,11 @@
+/* Default border for Inputs or Text fields. */
+$borderCoreDefault: $measureBorderWidthBorderWidthCoreBase solid $colorSemanticContentFieldBorderDefault;    
+/* Hover  */
+$borderCoreHover: $measureBorderWidthBorderWidthCoreBase solid $colorCoreSecondary500;    
+$borderCoreDanger: $measureBorderWidthBorderWidthCoreBase solid $colorCoreRed600;    
+$borderCoreSuccess: $measureBorderWidthBorderWidthCoreBase solid $colorCoreGreen600;    
+$borderCoreWarning: $measureBorderWidthBorderWidthCoreBase solid $colorCoreOrange600;    
+$borderCoreHighlight: $measureBorderWidthBorderWidthCoreBase solid $colorCoreBlue600;    
+$borderCoreDangerHover: $measureBorderWidthBorderWidthCoreBase solid $colorCoreRed700;    
+$borderCoreSuccessHover: $measureBorderWidthBorderWidthCoreBase solid $colorCoreGreen700;    
+$borderCoreHighlightHover: $measureBorderWidthBorderWidthCoreBase solid $colorCoreBlue700;    

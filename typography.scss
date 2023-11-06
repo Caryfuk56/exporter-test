@@ -1,0 +1,417 @@
+
+.typographyCoreHeadersH1 
+{ 
+  
+  font-family: "CPP Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: $measureFontSizingFontSizeCoreSizeHuge;
+  line-height: $measureLineHeightLineHeightCoreLineHeightLarge;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+.typographyCoreHeadersH2 
+{ 
+  
+  font-family: "CPP Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: $measureFontSizingFontSizeCoreSizeExtraLarge;
+  line-height: $measureLineHeightLineHeightCoreLineHeightLarge;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+.typographyCoreHeadersH3 
+{ 
+  
+  font-family: "CPP Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: $measureFontSizingFontSizeCoreSizeLarge;
+  line-height: $measureLineHeightLineHeightCoreLineHeightLarge;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+.typographyCoreHeadersH4 
+{ 
+  
+  font-family: "CPP Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: $measureFontSizingFontSizeCoreSizeMedium;
+  line-height: $measureLineHeightLineHeightCoreLineHeightMedium;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+.typographyCoreHeadersH5 
+{ 
+  
+  font-family: "CPP Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: $measureFontSizingFontSizeCoreSizeBase;
+  line-height: $measureLineHeightLineHeightCoreLineHeightMedium;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+.typographyCoreTextContentCaption 
+{ 
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: $measureFontSizingFontSizeCoreSizeTiny;
+  line-height: $measureLineHeightLineHeightCoreLineHeightSmall;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+.typographyCoreTextContentParagraph 
+{ 
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: $measureFontSizingFontSizeCoreSizeBase;
+  line-height: $measureLineHeightLineHeightCoreLineHeightMedium;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+.typographyComponentsFormsText 
+{ 
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: $measureFontSizingFontSizeCoreSizeBase;
+  line-height: $measureLineHeightLineHeightCoreLineHeightMedium;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+.typographyComponentsFormsLabel 
+{ 
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: $measureFontSizingFontSizeCoreSizeSmall;
+  line-height: $measureLineHeightLineHeightCoreLineHeightMedium;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+.typographyComponentsFormsSubtitle 
+{ 
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: $measureFontSizingFontSizeCoreSizeTiny;
+  line-height: $measureLineHeightLineHeightCoreLineHeightMedium;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+.typographyComponentsButtonLarge 
+{ 
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: $measureFontSizingFontSizeCoreSizeBase;
+  line-height: $measureLineHeightLineHeightCoreLineHeightLarge;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+.typographyComponentsButtonSmall 
+{ 
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: $measureFontSizingFontSizeCoreSizeTiny;
+  line-height: 16px;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+.typographyComponentsButtonMedium 
+{ 
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: $measureFontSizingFontSizeCoreSizeBase;
+  line-height: $measureLineHeightLineHeightCoreLineHeightMedium;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+.typographyComponentsDataTableColumnData 
+{ 
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: $measureFontSizingFontSizeCoreSizeBase;
+  line-height: $measureLineHeightLineHeightCoreLineHeightSmall;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+.typographyComponentsDataTableColumnHeader 
+{ 
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: $measureFontSizingFontSizeCoreSizeBase;
+  line-height: $measureLineHeightLineHeightCoreLineHeightMedium;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+.typographyComponentsPanelHeading 
+{ 
+  
+  font-family: "CPP Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: $measureFontSizingFontSizeCoreSizeLarge;
+  line-height: $measureLineHeightLineHeightCoreLineHeightSmall;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+@mixin typographyCoreHeadersH1 
+{ 
+  
+  font-family: "CPP Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: $measureFontSizingFontSizeCoreSizeHuge;
+  line-height: $measureLineHeightLineHeightCoreLineHeightLarge;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+@mixin typographyCoreHeadersH2 
+{ 
+  
+  font-family: "CPP Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: $measureFontSizingFontSizeCoreSizeExtraLarge;
+  line-height: $measureLineHeightLineHeightCoreLineHeightLarge;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+@mixin typographyCoreHeadersH3 
+{ 
+  
+  font-family: "CPP Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: $measureFontSizingFontSizeCoreSizeLarge;
+  line-height: $measureLineHeightLineHeightCoreLineHeightLarge;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+@mixin typographyCoreHeadersH4 
+{ 
+  
+  font-family: "CPP Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: $measureFontSizingFontSizeCoreSizeMedium;
+  line-height: $measureLineHeightLineHeightCoreLineHeightMedium;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+@mixin typographyCoreHeadersH5 
+{ 
+  
+  font-family: "CPP Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: $measureFontSizingFontSizeCoreSizeBase;
+  line-height: $measureLineHeightLineHeightCoreLineHeightMedium;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+@mixin typographyCoreTextContentCaption 
+{ 
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: $measureFontSizingFontSizeCoreSizeTiny;
+  line-height: $measureLineHeightLineHeightCoreLineHeightSmall;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+@mixin typographyCoreTextContentParagraph 
+{ 
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: $measureFontSizingFontSizeCoreSizeBase;
+  line-height: $measureLineHeightLineHeightCoreLineHeightMedium;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+@mixin typographyComponentsFormsText 
+{ 
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: $measureFontSizingFontSizeCoreSizeBase;
+  line-height: $measureLineHeightLineHeightCoreLineHeightMedium;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+@mixin typographyComponentsFormsLabel 
+{ 
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: $measureFontSizingFontSizeCoreSizeSmall;
+  line-height: $measureLineHeightLineHeightCoreLineHeightMedium;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+@mixin typographyComponentsFormsSubtitle 
+{ 
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: $measureFontSizingFontSizeCoreSizeTiny;
+  line-height: $measureLineHeightLineHeightCoreLineHeightMedium;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+@mixin typographyComponentsButtonLarge 
+{ 
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: $measureFontSizingFontSizeCoreSizeBase;
+  line-height: $measureLineHeightLineHeightCoreLineHeightLarge;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+@mixin typographyComponentsButtonSmall 
+{ 
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: $measureFontSizingFontSizeCoreSizeTiny;
+  line-height: 16px;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+@mixin typographyComponentsButtonMedium 
+{ 
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: $measureFontSizingFontSizeCoreSizeBase;
+  line-height: $measureLineHeightLineHeightCoreLineHeightMedium;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+@mixin typographyComponentsDataTableColumnData 
+{ 
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: $measureFontSizingFontSizeCoreSizeBase;
+  line-height: $measureLineHeightLineHeightCoreLineHeightSmall;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+@mixin typographyComponentsDataTableColumnHeader 
+{ 
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: $measureFontSizingFontSizeCoreSizeBase;
+  line-height: $measureLineHeightLineHeightCoreLineHeightMedium;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
+@mixin typographyComponentsPanelHeading 
+{ 
+  
+  font-family: "CPP Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: $measureFontSizingFontSizeCoreSizeLarge;
+  line-height: $measureLineHeightLineHeightCoreLineHeightSmall;
+  letter-spacing: 0px;
+  
+  text-indent: 0px; 
+}    
+
