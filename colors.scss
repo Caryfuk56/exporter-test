@@ -1,0 +1,263 @@
+$colorCoreRed100: #fcefee;    
+$colorCoreRed200: #f7d0ca;    
+$colorCoreRed500: #ec7b6a;    
+$colorCoreRed600: #e04f38;    
+$colorCoreRed700: #c03939;    
+$colorCoreBlue100: #edf6fd;    
+$colorCoreBlue200: #c7e4fa;    
+$colorCoreBlue500: #7cc0f3;    
+$colorCoreBlue600: #5cb0f0;    
+$colorCoreBlue700: #3193dd;    
+$colorCoreGreen100: #f2fded;    
+$colorCoreGreen200: #c0edab;    
+$colorCoreGreen500: #70cd42;    
+$colorCoreGreen600: #53c71a;    
+$colorCoreGreen700: #4caa1d;    
+$colorCoreOrange100: #fef6ec;    
+$colorCoreOrange200: #fcdbb0;    
+$colorCoreOrange500: #f8a63a;    
+$colorCoreOrange600: #f7981d;    
+$colorCoreOrange700: #e08106;    
+/* Odstín 100 produktové palety čpp */
+$colorCorePrimary100: #eef6fb;    
+/* Odstín 200 produktové palety čpp */
+$colorCorePrimary200: #cae1f2;    
+/* Odstín 300 produktové palety čpp */
+$colorCorePrimary300: #b3cfe6;    
+/* Odstín 400 produktové palety čpp */
+$colorCorePrimary400: #92bad8;    
+/* Odstín 500 produktové palety čpp */
+$colorCorePrimary500: #5083be;    
+/* Odstín 600 produktové palety čpp */
+$colorCorePrimary600: #004f8f;    
+/* Odstín 700 produktové palety čpp */
+$colorCorePrimary700: #134986;    
+/* Odstín 800 produktové palety čpp */
+$colorCorePrimary800: #004070;    
+/* Odstín 900 produktové palety čpp */
+$colorCorePrimary900: #003761;    
+/* Odstín 000 produktové palety čpp */
+$colorCorePrimary000: #002847;    
+$colorCoreSecondary100: #f9fafb;    
+$colorCoreSecondary200: #eaedf0;    
+$colorCoreSecondary300: #dfe3e7;    
+$colorCoreSecondary400: #ced4da;    
+$colorCoreSecondary500: #adb5bd;    
+/* Text */
+$colorCoreSecondary600: #6d767e;    
+$colorCoreSecondary700: #484f56;    
+$colorCoreSecondary800: #353b41;    
+$colorCoreSecondary900: #22262a;    
+/* Default color for secondary clickable components */
+$colorSemanticContentActionSecondaryDefault: #ffffff;    
+/* Opacity 10% used in light elevations. */
+$colorSemanticElevation10: #2125291a;    
+/* Opacity 20% used in medium and hight elevations. */
+$colorSemanticElevation20: #21252933;    
+$colorCoreBrandSecondaryRed: #e2001a;    
+$colorCoreBasicWhite: #ffffff;    
+$colorCoreBasicBlack: #000000;    
+$colorCoreSecondary000: #121416;    
+$colorCoreSecondary150: #f6f8f9;    
+$colorSemanticElevation15: #21252926;    
+/* Opacity 60% used as background for modals and sidesheets. */
+$colorSemanticElevation60: #21252999;    
+$colorCoreProductsLife: $colorCorePrimary600;    
+$colorCoreProductsTravel: $colorCorePrimary600;    
+$colorCoreProductsBusiness: $colorCorePrimary600;    
+$colorCoreProductsProperty: $colorCorePrimary600;    
+$colorCoreProductsVehicles: $colorCorePrimary600;    
+$colorCoreProductLife: $colorCorePrimary600;    
+$colorCoreProductTravel: $colorCorePrimary600;    
+$colorCoreProductBusiness: $colorCorePrimary600;    
+$colorCoreProductProperty: $colorCorePrimary600;    
+$colorCoreProductVehicles: $colorCorePrimary600;    
+/* Color for page background */
+$colorSemanticBaseCanvasDefault: $colorCoreSecondary300;    
+/* Color for overlaying page content with 50% opacity */
+$colorSemanticBaseOverlayDefault: $colorCoreSecondary900;    
+/* Default color for container background */
+$colorSemanticBaseContainerDefault: $colorCoreBasicWhite;    
+/* Color for text in highlight state */
+$colorSemanticContentTextInfo: $colorCoreBlue600;    
+/* Muted text content like captions, disabled action components etc. */
+$colorSemanticContentTextMuted: $colorCoreSecondary600;    
+/* Color for text in danger state */
+$colorSemanticContentTextDanger: $colorCoreRed600;    
+/* Default color for text */
+$colorSemanticContentTextDefault: $colorCoreSecondary800;    
+/* Color for text in success state */
+$colorSemanticContentTextSuccess: $colorCoreGreen600;    
+/* Color for text in warning state */
+$colorSemanticContentTextWarning: $colorCoreOrange600;    
+/* Base negative color for text content */
+$colorSemanticContentTextNegative: $colorCoreBasicWhite;    
+/* Default Label color */
+$colorSemanticContentLabelDefault: $colorCoreSecondary600;    
+/* Hover color for form component border */
+$colorSemanticContentFieldBorderHover: $colorCoreSecondary500;    
+/* Default color for borders of disabled form components */
+$colorSemanticContentFieldBorderMuted: $colorCoreSecondary100;    
+/* Default color for borders of components like text fields, inputs etc.  */
+$colorSemanticContentFieldBorderDefault: $colorCoreSecondary400;    
+/* Hover for inputs, messages, and other components in danger state */
+$colorSemanticContentFieldBorderDangerHover: $colorCoreRed700;    
+/* Hover for inputs, messages, and other components in success state */
+$colorSemanticContentFieldBorderSuccessHover: $colorCoreGreen700;    
+/* Hover for inputs, messages, and other components in warning state */
+$colorSemanticContentFieldBorderWarningHover: $colorCoreOrange700;    
+/* Border for inputs, messages, and other components in danger state */
+$colorSemanticContentFieldBorderDangerDefault: $colorCoreRed600;    
+/* Hover for inputs, messages, and other components in highlight state */
+$colorSemanticContentFieldBorderHighlightHover: $colorCoreBlue700;    
+/* Border for inputs, messages, and other components in success state */
+$colorSemanticContentFieldBorderSuccessDefault: $colorCoreGreen600;    
+/* Border for inputs, messages, and other components in warning state */
+$colorSemanticContentFieldBorderWarningDefault: $colorCoreOrange600;    
+/* Border for inputs, messages, and other components in highlight state */
+$colorSemanticContentFieldBorderHighlightDefault: $colorCoreBlue600;    
+/* Muted color for component background */
+$colorSemanticContentFieldBackgroundMuted: $colorCoreSecondary100;    
+/* Default color for component background */
+$colorSemanticContentFieldBackgroundDefault: $colorCoreBasicWhite;    
+/* Background for tooltips, etc. */
+$colorSemanticContentFieldBackgroundContrast: $colorCoreSecondary800;    
+/* Background for danger type message */
+$colorSemanticContentFieldBackgroundDangerMuted: $colorCoreRed100;    
+/* Background for success type message */
+$colorSemanticContentFieldBackgroundSuccessMuted: $colorCoreGreen100;    
+/* Background for warning type message */
+$colorSemanticContentFieldBackgroundWarningMuted: $colorCoreOrange100;    
+/* Background for danger type for components fill like checkbox or radio buttons */
+$colorSemanticContentFieldBackgroundDangerEmphasized: $colorCoreRed600;    
+/* Background for success type for components fill like checkbox or radio buttons */
+$colorSemanticContentFieldBackgroundSuccessEmphasized: $colorCoreGreen600;    
+/* Background for warning type for components fill like checkbox or radio buttons */
+$colorSemanticContentFieldBackgroundWarningEmphasized: $colorCoreOrange600;    
+/* Active color for clickable components */
+$colorSemanticContentActionPrimaryActive: $colorCorePrimary500;    
+/* Default color for clickable components */
+$colorSemanticContentActionPrimaryDefault: $colorCorePrimary600;    
+/* Disabled color for clickable components */
+$colorSemanticContentActionPrimaryDisabled: $colorCoreSecondary300;    
+/* Active color for secondary clickable components */
+$colorSemanticContentActionSecondaryActive: $colorCoreSecondary200;    
+/* Color for secondary clickable components in disabled state */
+$colorSemanticContentActionSecondaryDisabled: $colorCoreSecondary300;    
+/* Border color for hover state */
+$colorComponentInputBorderHover: $colorSemanticContentFieldBorderHover;    
+/* Border color for default state */
+$colorComponentInputBorderDefault: $colorSemanticContentFieldBorderDefault;    
+/* Border color for danger state - hover */
+$colorComponentInputBorderDangerHover: $colorSemanticContentFieldBorderDangerHover;    
+/* Border color for success state - hover */
+$colorComponentInputBorderSuccessHover: $colorSemanticContentFieldBorderSuccessHover;    
+/* Border color for danger state */
+$colorComponentInputBorderDangerDefault: $colorSemanticContentFieldBorderDangerDefault;    
+/* Border color for highlight state - hover */
+$colorComponentInputBorderHighlightHover: $colorSemanticContentFieldBorderHighlightHover;    
+/* Border color for success state */
+$colorComponentInputBorderSuccessDefault: $colorSemanticContentFieldBorderSuccessDefault;    
+/* Border color for highlight state */
+$colorComponentInputBorderHighlightDefault: $colorSemanticContentFieldBorderHighlightDefault;    
+/* Content color for active input fields */
+$colorComponentInputContentActive: $colorSemanticContentActionPrimaryDefault;    
+/* Default color for content inside input fields */
+$colorComponentInputContentDefault: $colorSemanticContentTextDefault;    
+/* Content color for disabled or inactive input fields */
+$colorComponentInputContentDisabled: $colorSemanticContentTextMuted;    
+/* Content color for placeholder in input fields */
+$colorComponentInputContentPlaceholder: $colorSemanticContentTextMuted;    
+/* Default color for input background */
+$colorComponentInputBackgroundDefault: $colorSemanticContentFieldBackgroundDefault;    
+/* Disabled input background color */
+$colorComponentInputBackgroundDisabled: $colorCoreSecondary200;    
+/* Pressed and hover state for clickable components */
+$colorSemanticContentActionPrimaryHover: $colorCorePrimary800;    
+/* Content color for flat button in hover state */
+$colorComponentButtonFlatContentHover: $colorSemanticContentActionPrimaryHover;    
+/* Content color for flat button in active state */
+$colorComponentButtonFlatContentActive: $colorSemanticContentActionPrimaryActive;    
+/* Content color for flat button */
+$colorComponentButtonFlatContentDefault: $colorSemanticContentActionPrimaryDefault;    
+/* Content color for flat button in disabled state */
+$colorComponentButtonFlatContentDisabled: $colorSemanticContentTextMuted;    
+/* Content color for primary button */
+$colorComponentButtonPrimaryContentDefault: $colorSemanticContentTextNegative;    
+/* Content color for primary button in disabled state */
+$colorComponentButtonPrimaryContentDisabled: $colorSemanticContentTextMuted;    
+/* Background color for button in hover state */
+$colorComponentButtonPrimaryBackgroundHover: $colorSemanticContentActionPrimaryHover;    
+/* Background color for button in active state */
+$colorComponentButtonPrimaryBackgroundActive: $colorSemanticContentActionPrimaryActive;    
+/* Background color for button in default state */
+$colorComponentButtonPrimaryBackgroundDefault: $colorSemanticContentActionPrimaryDefault;    
+/* Background color for button in disabled state */
+$colorComponentButtonPrimaryBackgroundDisabled: $colorSemanticContentActionPrimaryDisabled;    
+/* Content color for secondary button */
+$colorComponentButtonSecondaryContentDefault: $colorSemanticContentActionPrimaryDefault;    
+/* Content color for primary button in disabled state */
+$colorComponentButtonSecondaryContentDisabled: $colorSemanticContentTextMuted;    
+/* Background color for button in hover state */
+$colorComponentButtonSecondaryBackgroundHover: $colorSemanticContentActionPrimaryHover;    
+/* Background color for button in active state */
+$colorComponentButtonSecondaryBackgroundActive: $colorSemanticContentActionPrimaryActive;    
+/* Background color for button in default state */
+$colorComponentButtonSecondaryBackgroundDefault: $colorSemanticContentActionSecondaryDefault;    
+/* Background color for button in disabled state */
+$colorComponentButtonSecondaryBackgroundDisabled: $colorSemanticContentActionSecondaryDisabled;    
+/* Background color for button in disabled state */
+$colorComponentButtonFlatBackgroundDisabled: $colorSemanticContentActionSecondaryDisabled;    
+/* Border color for button in default state */
+$colorComponentButtonPrimaryBorderDefault: $colorSemanticContentActionPrimaryDefault;    
+/* Border color for button in hover state */
+$colorComponentButtonPrimaryBorderHover: $colorSemanticContentActionPrimaryHover;    
+/* Border color for button in active state */
+$colorComponentButtonPrimaryBorderActive: $colorSemanticContentActionPrimaryActive;    
+/* Border color for button in disabled state */
+$colorComponentButtonPrimaryBorderDisabled: $colorSemanticContentActionPrimaryDisabled;    
+/* Border color for button in default state */
+$colorComponentButtonSecondaryBorderDefault: $colorSemanticContentActionPrimaryDefault;    
+/* Border color for button in hover state */
+$colorComponentButtonSecondaryBorderHover: $colorSemanticContentActionPrimaryHover;    
+/* Border color for button in active state */
+$colorComponentButtonSecondaryBorderActive: $colorSemanticContentActionPrimaryActive;    
+/* Border color for button in disabled state */
+$colorComponentButtonSecondaryBorderDisabled: $colorSemanticContentActionSecondaryDisabled;    
+/* Content color for secondary button in hover state */
+$colorComponentButtonSecondaryContentHover: $colorSemanticContentTextNegative;    
+/* Content color for secondary button in active state */
+$colorComponentButtonSecondaryContentActive: $colorSemanticContentTextNegative;    
+$colorComponentButtonFlatBackgroundDefault: $colorSemanticContentActionSecondaryDefault;    
+/* Background for info type for components fill like checkbox or radio buttons */
+$colorSemanticContentFieldBackgroundInfoEmphasized: $colorCoreBlue600;    
+/* Background for info type message */
+$colorSemanticContentFieldBackgroundInfoMuted: $colorCoreBlue100;    
+/* Any container on default background */
+$colorSemanticBaseContainerContrast: $colorCoreSecondary150;    
+/* Disabled state */
+$colorSemanticBaseContainerDisabled: $colorCoreSecondary200;    
+/* Pressed and hover state for secondary clickable components */
+$colorSemanticContentActionSecondaryHover: $colorCoreSecondary100;    
+/* Global border color */
+$colorSemanticBaseBorderDefault: $colorCoreSecondary300;    
+$colorComponentTabBackgroundDefault: $colorSemanticBaseContainerDefault;    
+$colorComponentTabBackgroundInactive: $colorCoreSecondary200;    
+$colorComponentTabBackgroundHover: $colorCoreSecondary400;    
+$colorComponentTabBackgroundDisabled: $colorCoreSecondary200;    
+$colorComponentTabBackgroundHighlightDefault: $colorSemanticContentActionPrimaryDefault;    
+$colorComponentTabBackgroundHighlightHover: $colorSemanticContentActionPrimaryHover;    
+$colorComponentTabBorderDefault: $colorSemanticBaseBorderDefault;    
+$colorComponentTabBorderInactive: $colorCoreSecondary400;    
+$colorComponentTabBorderHover: $colorCoreSecondary400;    
+$colorComponentTabBorderDisabled: $colorCoreSecondary400;    
+$colorComponentTabContentTextDefault: $colorSemanticContentTextDefault;    
+$colorComponentTabContentTextDisabled: $colorSemanticContentTextMuted;    
+$colorComponentTabContentTextNegative: $colorSemanticContentTextNegative;    
+$colorTableAgAlpineActive: $colorSemanticContentActionPrimaryActive;    
+/* Background color when hovering over rows in the grid and in dropdown menus. Set to transparent to disable the hover effect. Note: if you want a rollover on one but not the other, use CSS selectors instead of this property */
+$colorTableAgAlpineActiveColor: $colorSemanticContentActionPrimaryActive;    
+/* Color to draw around selected cell ranges */
+$colorTableAgRangeSelectionBorderColor: $colorTableAgAlpineActiveColor;    
+/* Colour of the border drawn under selected tabs */
+$colorTableAgSelectedTabUnderlineColor: $colorTableAgAlpineActiveColor;    
