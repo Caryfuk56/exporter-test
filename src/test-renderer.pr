@@ -2,3 +2,19 @@ Testovací file
 
 {[ let currentBrand = ds.currentBrand() /]}
 Current brand: {{ currentBrand.name }}
+
+{[ const allBrands = ds.allBrands() /]}
+{[ const designSystem = ds.currentDesignSystem() /]}
+{[ const currentDate = currentDate() /]}
+
+{{ "Vyexportováno: " }}{{ currentDate }}
+
+{{ "-------------------------------------------" }}
+
+{{ "DOSTUPNÁ TÉMATA"}}
+
+{[ for brand in allBrands ]}
+{{ "* " }}{{ brand.name }}
+{{ " - Persistant id: " }}{{ brand.persistentId }}
+{{ " - Id: " }}{{ brand.id }}
+{[/]}
