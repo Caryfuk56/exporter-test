@@ -1,0 +1,4 @@
+Testovací file
+
+{[ let currentBrand = ds.currentBrand() /]}
+Current brand: {{ currentBrand.name }}

@@ -1,12 +1,8 @@
 {
     "blueprints": [
         {
-            "invoke": "colors.pr",
-            "write_to": "tokens/colors.scss"
-        },
-        {
-            "invoke": "measures.pr",
-            "write_to": "tokens/measures.scss"
+            "invoke": "test-renderer.pr",
+            "write_to": "test.txt"
         }
     ]
 }
